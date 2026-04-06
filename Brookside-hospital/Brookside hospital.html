@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brook of Cherith Hospital</title>
+
+<style>
+body {margin:0;font-family:Arial, sans-serif;background:#eef6fb;}
+header {background:#0056b3;color:white;padding:20px;text-align:center;}
+nav {background:#007b5e;display:flex;justify-content:center;flex-wrap:wrap;}
+nav a {color:white;padding:14px;text-decoration:none;font-weight:bold;margin:2px;border-radius:5px;}
+nav a:hover {background:#0056b3;}
+
+/* Hero section */
+.hero {
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3');
+  background-size:cover;
+  color:white;
+  padding:120px 20px;
+  text-align:center;
+}
+
+/* Sections */
+section {padding:40px;}
+section#about {background:#d4edda;}
+section#departments {background:#f5f5dc;}
+section#doctors {background:#ffffff; color:#001f4d;}
+section#testimonials {background:#d4edda;}
+
+/* Headings */
+h2 {text-align:center;color:#0056b3;}
+
+/* Cards */
+.cards {display:flex;flex-wrap:wrap;gap:20px;}
+.card {background:white;padding:20px;border-radius:10px;flex:1 1 250px;box-shadow:0 0 10px rgba(0,0,0,0.1);}
+section#doctors .card {background:white;color:#001f4d;}
+.testimonial {background:white;padding:15px;margin:10px;border-left:5px solid #007b5e;}
+
+/* Forms */
+form {max-width:600px;margin:auto;background:white;padding:20px;border-radius:10px;}
+input,textarea {width:100%;padding:10px;margin:10px 0;}
+button {background:#0056b3;color:white;padding:10px;border:none;width:100%;}
+
+/* Footer */
+footer {background:#0056b3;color:white;text-align:center;padding:15px;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Brook of Cherith Hospital</h1>
+<p>Nyakarianga | 24/7 Healthcare</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#departments">Departments</a>
+<a href="#resources">Resource Centre</a>
+<a href="#doctors">Doctors</a>
+<a href="#news">News</a>
+<a href="#testimonials">Testimonials</a>
+<a href="#form">Patient Form</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+<h1>Quality Healthcare You Can Trust</h1>
+<p>Serving Nyandarua Community</p>
+</div>
+
+<section id="about">
+<h2>About Brook of Cherith Medical Centre</h2>
+<p>Brook of Cherith Medical Centre is a trusted private healthcare facility in Nyakarianga, Nyandarua County. We provide high-quality, affordable, and accessible medical services to individuals and families.</p>
+<h3>Our Mission</h3>
+<p>To provide reliable, affordable, and high-quality healthcare services that improve the health and well-being of our community.</p>
+<h3>Our Vision</h3>
+<p>To be a leading healthcare provider in Nyandarua County known for excellence, innovation, and compassionate care.</p>
+<h3>Our Core Values</h3>
+<ul>
+<li>✔ Compassion and care for all patients</li>
+<li>✔ Professionalism and integrity</li>
+<li>✔ Excellence in service delivery</li>
+<li>✔ Respect for human life</li>
+<li>✔ Teamwork and accountability</li>
+</ul>
+</section>
+
+<section id="services">
+<h2>Services</h2>
+<div class="cards">
+<div class="card"><h3>Outpatient Services</h3><p>Consultation, diagnosis, and treatment for patients who do not require overnight admission.</p></div>
+<div class="card"><h3>Emergency & Accident Care</h3><p>24/7 emergency services equipped to handle accidents, trauma, and urgent medical conditions.</p></div>
+<div class="card"><h3>Inpatient Services</h3><p>Comfortable hospital rooms and personalized care for patients who need to stay for monitoring or recovery.</p></div>
+<div class="card"><h3>Maternity & Child Care</h3><p>Comprehensive prenatal, delivery, postnatal, and child healthcare services.</p></div>
+<div class="card"><h3>Laboratory Services</h3><p>Modern diagnostic tests and laboratory services including blood tests, urine analysis, and screening services.</p></div>
+<div class="card"><h3>Pharmacy</h3><p>Fully stocked pharmacy providing prescription medications and health consultations.</p></div>
+<div class="card"><h3>Radiology & Imaging</h3><p>Advanced imaging services including X-rays, ultrasound, and other diagnostic imaging techniques.</p></div>
+<div class="card"><h3>Chronic Care & Specialized Clinics</h3><p>Management of chronic conditions such as diabetes, hypertension, and heart disease through specialized clinics.</p></div>
+</div>
+</section>
+
+<section id="departments">
+<h2>Departments</h2>
+<div class="cards">
+<div class="card"><h3>Maternity Department</h3><p>Comprehensive prenatal, delivery, and postnatal care for mothers and newborns.</p></div>
+<div class="card"><h3>Pediatrics Department</h3><p>Child health including immunizations, growth monitoring, and treatment of childhood illnesses.</p></div>
+<div class="card"><h3>General Medicine</h3><p>Care for adults for a wide range of medical conditions including infections, chronic illnesses, and routine checkups.</p></div>
+<div class="card"><h3>Chronic Care Clinic</h3><p>Specialized care for chronic illnesses such as diabetes, hypertension, asthma, and heart disease.</p></div>
+<div class="card"><h3>Laboratory & Diagnostics</h3><p>Supports all departments with accurate diagnostic testing.</p></div>
+<div class="card"><h3>Pharmacy</h3><p>Dispenses medications for inpatients and outpatients.</p></div>
+<div class="card"><h3>Radiology & Imaging</h3><p>Advanced imaging services for accurate diagnosis across departments.</p></div>
+<div class="card"><h3>Emergency & Critical Care</h3><p>Handles accidents, emergencies, and life-threatening conditions 24/7.</p></div>
+</div>
+</section>
+<section id="resources">
+  <h2>Resource Centre</h2>
+  <p class="intro">
+    Welcome to our Resource Centre. Here you can find helpful information, patient guides, FAQs, and health education materials to support your healthcare journey.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>📘 Patient Guides</h3>
+      <p>Access easy-to-understand guides on hospital services, procedures, and how to prepare for your visit.</p>
+    </div>
+
+    <div class="card">
+      <h3>❓ Frequently Asked Questions (FAQs)</h3>
+      <p>Find answers to common questions about our services, appointments, payments, and patient care.</p>
+    </div>
+
+    <div class="card">
+      <h3>🩺 Health Education</h3>
+      <p>Learn about common diseases, prevention tips, healthy living, and how to manage chronic conditions.</p>
+    </div>
+
+    <div class="card">
+      <h3>📄 Download Forms</h3>
+      <p>Download important documents such as patient registration forms and medical consent forms.</p>
+    </div>
+
+    <div class="card">
+      <h3>📅 Appointment Information</h3>
+      <p>Get information on how to book appointments, clinic schedules, and visiting hours.</p>
+    </div>
+
+    <div class="card">
+      <h3>📞 Emergency Information</h3>
+      <p>Important contacts and steps to take during medical emergencies.</p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+#resources {
+  background: #eef6fb;
+  padding: 40px;
+}
+
+#resources .intro {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  text-align: center;
+  color: #0056b3;
+}
+</style>
+
+<section id="doctors">
+<h2>Meet Our Doctors</h2>
+<p>Our team of qualified and experienced doctors is committed to providing excellent healthcare.</p>
+<div class="cards">
+<div class="card"><h3>Dr. John Maina</h3><p>General Medicine. 10+ years of experience treating adult patients.</p></div>
+<div class="card"><h3>Dr. Jane Wanjiku</h3><p>Pediatrics. Focus on child healthcare and immunizations.</p></div>
+<div class="card"><h3>Dr. Peter Otieno</h3><p>Surgery. General and emergency surgical care.</p></div>
+<div class="card"><h3>Dr. Grace Njeri</h3><p>Obstetrics & Gynecology. Comprehensive maternity care.</p></div>
+<div class="card"><h3>Dr. Samuel Mwangi</h3><p>Radiology. Advanced imaging services.</p></div>
+<div class="card"><h3>Dr. Mary Chebet</h3><p>Laboratory Medicine. Accurate diagnostics.</p></div>
+</div>
+</section>
+<section id="news">
+  <h2>Latest News & Updates</h2>
+  <p class="intro">
+    Stay updated with the latest news, health campaigns, and announcements from Brook of Cherith Hospital.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>🩺 Free Medical Camp</h3>
+      <p><strong>Date:</strong> 20th May 2026</p>
+      <p>We are hosting a free medical camp offering checkups, consultations, and health advice to the community.</p>
+    </div>
+
+    <div class="card">
+      <h3>👶 New Maternity Wing Opened</h3>
+      <p><strong>Date:</strong> 10th April 2026</p>
+      <p>Our hospital has expanded maternity services with modern equipment to improve care for mothers and babies.</p>
+    </div>
+
+    <div class="card">
+      <h3>💉 Vaccination Drive</h3>
+      <p><strong>Date:</strong> 5th April 2026</p>
+      <p>We are running a vaccination program for children and adults. Visit us to get protected.</p>
+    </div>
+
+    <div class="card">
+      <h3>🏥 New Laboratory Equipment</h3>
+      <p><strong>Date:</strong> 25th March 2026</p>
+      <p>We have introduced advanced lab machines to improve accuracy and speed of diagnosis.</p>
+    </div>
+
+    <div class="card">
+      <h3>❤️ Community Health Talk</h3>
+      <p><strong>Date:</strong> 15th March 2026</p>
+      <p>Our doctors held a public health talk on managing diabetes and hypertension.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚑 Emergency Services Upgrade</h3>
+      <p><strong>Date:</strong> 1st March 2026</p>
+      <p>Our emergency department has been upgraded to handle critical cases more efficiently.</p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+#news {
+  background: #ffffff;
+  padding: 40px;
+}
+
+#news .intro {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #eef6fb;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  text-align: center;
+  color: #0056b3;
+}
+</style>
+
+<section id="testimonials">
+<h2>What Our Patients Say</h2>
+<p>We value our patients’ feedback and continuously strive to improve our services.</p>
+<div class="cards">
+<div class="card testimonial"><h3>Mary W.</h3><p>"Brook of Cherith Hospital is very clean and the staff are extremely caring."</p></div>
+<div class="card testimonial"><h3>John K.</h3><p>"The doctors are professional and approachable. I received timely treatment."</p></div>
+</div>
+</section>
+
+<section id="form">
+  <h2>Patient Form</h2>
+  <form action="https://formspree.io/f/xpwyqrwd" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" placeholder="Your age" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+    <label for="condition">Condition / Message:</label>
+    <textarea id="condition" name="condition" placeholder="Describe your condition or message" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<style>
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #0056b3;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #003f7f;
+}
+</style>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>📍 Nyakarianga</p>
+<p>📞 0723 476735</p>
+</section>
+
+<footer>
+<p>© 2026 Brook of Cherith Hospital</p>
+</footer>
+
+<script>
+function validateForm(){
+let n=document.getElementById('name').value;
+let a=document.getElementById('age').value;
+let p=document.getElementById('phone').value;
+let m=document.getElementById('msg').value;
+if(n==''||a==''||p==''||m==''){
+document.getElementById('error').innerHTML='Fill all fields';
+return false;
+}
+alert('Submitted successfully');
+return true;
+}
+</script>
+
+</body>
+</html>
